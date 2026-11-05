@@ -55,6 +55,7 @@ def page(title, desc, url, css, body):
 <link rel="canonical" href="{url}">
 <style>{css}
 body{{margin:0}}
+.tile{{text-align:center;padding:0 6px}}.tile .t-sec{{line-height:1.7}}
 .site-nav{{display:flex;justify-content:center;gap:18px;margin-top:22px}}
 .site-nav a{{font-size:12px;letter-spacing:.08em;color:#8f8f8f;border-bottom:1px solid #555;padding-bottom:2px}}
 </style>
